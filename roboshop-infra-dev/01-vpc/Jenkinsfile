@@ -18,7 +18,7 @@ pipeline {
             steps {
                 sh """
                     cd roboshop-infra-dev/01-vpc
-                    terraform init -reconfigure
+                    terraform init
                 """
             }
         }
